@@ -10,7 +10,7 @@ $ProgressPreference = "SilentlyContinue"
 
 
 
-$out = "C:/test-export-teams-chats"
+$out = "C:/export-teams-chats"
 
 if ($IsMacOS -or $IsLinux) {
     pwsh -File "./Get-MicrosoftTeamsChat.ps1" -exportFolder $out
