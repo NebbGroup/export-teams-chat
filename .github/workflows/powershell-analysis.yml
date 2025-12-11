@@ -10,6 +10,7 @@
 name: PSScriptAnalyzer
 permissions:
   contents: read
+  security-events: write
 
 on:
   push:
