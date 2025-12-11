@@ -8,6 +8,8 @@
 # https://github.com/PowerShell/PSScriptAnalyzer
 
 name: PSScriptAnalyzer
+permissions:
+  contents: read
 
 on:
   push:
